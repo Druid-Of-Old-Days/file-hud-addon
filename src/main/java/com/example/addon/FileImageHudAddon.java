@@ -16,7 +16,7 @@ public class FileImageHudAddon extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing file hud addon");
         Hud.get().register(FileImageHud.INFO);
     }
 
